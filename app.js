@@ -49,9 +49,9 @@ async function startQuiz() {
             console.log(chalk.bold.italic.green(("Correct!")));
         }
         else {
-            console.log(`Incorrect. The correct answer is ${question.answer}`);
+            console.log(chalk.bold.italic.red((`Incorrect. The correct answer is ${question.answer}`)));
         }
-        console.log(`Quiz Ended. Your Score is ${score}/${questions.length}`);
+        console.log(chalk.bold.italic.blue((`Quiz Ended. Your Score is ${score}/${questions.length}`)));
     }
 }
 startQuiz();
