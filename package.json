@@ -4,10 +4,10 @@
     "inquirer": "^9.2.20"
   },
   "name": "hasnain-quiz-game",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.2",
+  "main": "./app.js",
+  "bin": "./app.js",
   "type": "module",
-  "bin": "index.js",
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
   },
